@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="UTF-8">
+        <title>Dash</title>
+        <link rel="icon" type="image/x-icon" href="/_favicon.ico?v=1.19.0">
+        <link rel="stylesheet" href="https://codepen.io/chriddyp/pen/bWLwgP.css">
+    </head>
+    <body>
+        
+<div id="react-entry-point">
+    <div class="_dash-loading">
+        Loading...
+    </div>
+</div>
+
+        <footer>
+            <script id="_dash-config" type="application/json">{"url_base_pathname": null, "requests_pathname_prefix": "/", "ui": false, "props_check": false, "show_undo_redo": false, "suppress_callback_exceptions": false, "update_title": "Updating..."}</script>
+            <script src="/_dash-component-suites/dash_renderer/react@16.v1_1_2m1576595738.8.6.min.js"></script>
+<script src="/_dash-component-suites/dash_renderer/react-dom@16.v1_1_2m1576595738.8.6.min.js"></script>
+<script src="/_dash-component-suites/dash_renderer/prop-types@15.v1_1_2m1576595738.7.2.min.js"></script>
+<script src="/_dash-component-suites/dash_html_components/dash_html_components.v1_0_1m1576596177.min.js"></script>
+<script src="/_dash-component-suites/dash_core_components/plotly-1.v1_3_1m1576595950.50.1.min.js"></script>
+<script src="/_dash-component-suites/dash_core_components/highlight.v1_3_1m1576595950.pack.js"></script>
+<script src="/_dash-component-suites/dash_core_components/dash_core_components.v1_3_1m1576595950.min.js"></script>
+<script src="/_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v0_8_3m1583589390.min.js"></script>
+<script src="/_dash-component-suites/dash_table/bundle.v4_4_1m1630660294.js"></script>
+<script src="/_dash-component-suites/dash_renderer/dash_renderer.v1_1_2m1576595738.min.js"></script>
+            <script id="_dash-renderer" type="application/javascript">var renderer = new DashRenderer();</script>
+        </footer>
+    </body>
+</html>

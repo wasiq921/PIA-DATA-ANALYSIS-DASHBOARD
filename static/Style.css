@@ -1,0 +1,85 @@
+body {
+    background-image: url(static/Plain-Light-Backgrounds-Wallpapers.png);
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 125px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Leckerli One';
+        background: -webkit-linear-gradient( rgb(9, 136, 5),rgb(247, 206, 26));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 42px;
+}
+
+h2{
+    margin-inline: 0;
+    text-align: center;
+    font-style: italic;
+    color: #0b7e14 !important;
+}
+
+.header-img {
+    width: 200%;
+    height: 400%;
+}
+
+button{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    font-style: 2%;
+    float: right;
+}
+
+a {
+    font-size: 26px;
+    color: rgb(2, 75, 2);
+    /* margin-right: 100px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pdfBtn {
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.active{
+    background-color: #5cb85c !important;
+}
+
+.form-control:focus {
+    border-color: green;
+    box-shadow: 0px 1px 1px rgba(164, 231, 8, 0.842) inset, 0px 0px 8px rgba(175, 255, 100, 0.5);
+}
+
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+p{
+    font-size: 18px;
+}
+a {
+  color: green;
+ 
+}
+.second
+{
+	font-size:20px;
+	color:white;
+}

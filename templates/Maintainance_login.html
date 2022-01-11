@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maintenance Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/Style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="static/style1.css">
+
+</head>
+<style>
+	body {
+	background-image:url('static/aircraft-maintenance.webp')
+	}
+</style>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1"><img src="static/image2.png" class="logo"></span>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <h1 class="nav-link font-italic font-weight-bold text-success" style="font-size:30px">Welcome to  Maintenance Department</h1>
+      </li>
+    </ul>
+  </nav>
+     <nav class="navbar navbar-light bg-light">
+     <ul class="nav justify-content-center">
+	 
+      <li class="nav-item">
+        <a class="nav-link" href="/maintenance_login" style="color:black">Maintenance</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/repair_login" style="color:black">Repairs</a>
+      </li>
+
+      <li class="nav-item" >
+        <a class="nav-link" href="/operations_login" style="color:black">Operations</a>
+      </li>
+	  
+	  
+	  
+
+    </ul>
+</nav>
+    <br>
+  
+  <div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Sign In</h3>
+				
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" name="user" placeholder="username" id="username">
+						
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" name="pass" placeholder="password" id="pwd">
+					</div>
+					<div class="row align-items-center remember">
+						<input type="checkbox">Remember Me
+					</div>
+					
+					<div class="form-group">
+					
+						<input type="button" value="Login" class="btn float-right login_btn" onclick="javascript:validate()"> <!-- onclick="window.location.href='/maintenance'">-->
+						
+						
+					</div>
+					
+				</form>
+			</div>
+			<div class="card-footer">
+				<!-- <div class="d-flex justify-content-center links">
+				<a href="#" class="second">Sign Up</a>
+				</div> -->
+				<div class="d-flex justify-content-center">
+					<a href="#" class="second">Forgot your password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+	function validate()
+	{
+		if(   document.getElementById("username").value == "wasiq921@gmail.com"
+		   && document.getElementById("pwd").value == "123456789" )
+		{
+			window.location.href='/maintenance';
+		}
+
+		else if(document.getElementById("username").value == "rafaydadk@gmail.com"
+		   && document.getElementById("pwd").value == "123456789")
+		   {
+			window.location.href='/maintenance';
+		}
+		else if(document.getElementById("username").value == "engrwajihalam@gmail.com"
+		   && document.getElementById("pwd").value == "123456789")
+		   {
+			window.location.href='/maintenance';
+		}
+		else if(document.getElementById("username").value == "nohail.irfan28@gmail.com"
+		   && document.getElementById("pwd").value == "123456789")
+		   {
+			window.location.href='/maintenance';
+		}
+		else if(document.getElementById("username").value == "sheikhasim621@gmail.com"
+		   && document.getElementById("pwd").value == "123456789")
+		   {
+			window.location.href='/maintenance';
+		}
+		else if(document.getElementById("username").value == "wasiq.muhammad21@gmail.com"
+		   || document.getElementById("pwd").value == "123456789")
+		   {
+			window.location.href='/maintenance';
+		}
+		else
+		{
+			alert( "Incorrect Username or Password" );
+			
+		}
+	}
+	</script>
+<!--
+	
+-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</html>
+
+
